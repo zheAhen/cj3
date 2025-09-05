@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-page {
+  @apply p-6 max-w-7xl mx-auto;
+}
+
+.ant-card {
+  @apply rounded-lg;
+}
+
+.ant-card-cover img {
+  @apply rounded-t-lg;
+}
+
+.ant-card-meta-title {
+  @apply text-lg font-medium;
+}
+
+.ant-card-meta-description {
+  @apply text-gray-600;
+}
+
+.ant-statistic-title {
+  @apply text-gray-600;
+}
+
+.ant-statistic-content {
+  @apply text-2xl;
+}
+
+.react-markdown pre {
+  @apply bg-gray-800 text-gray-100 p-4 rounded-lg overflow-x-auto;
+}
+
+.react-markdown code {
+  @apply bg-gray-100 text-gray-800 px-1 py-0.5 rounded;
+}
+
+.react-markdown a {
+  @apply text-blue-500 hover:underline;
+}
+
+.react-markdown h1 {
+  @apply text-3xl font-bold my-4;
+}
+
+.react-markdown h2 {
+  @apply text-2xl font-bold my-3;
+}
+
+.react-markdown h3 {
+  @apply text-xl font-bold my-2;
+}
+
+.react-markdown ul {
+  @apply list-disc pl-6 my-2;
+}
+
+.react-markdown ol {
+  @apply list-decimal pl-6 my-2;
+}
+
+.react-markdown blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-600;
+}
+
+.react-markdown table {
+  @apply border-collapse w-full my-4;
+}
+
+.react-markdown th, .react-markdown td {
+  @apply border border-gray-300 p-2;
+}
+
+.react-markdown th {
+  @apply bg-gray-100;
+}
